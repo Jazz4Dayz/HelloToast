@@ -7,19 +7,23 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/buttonToast"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="Button"
+        android:background="@android:color/holo_red_dark"
+        android:text="Toast"
+        android:textColor="@android:color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/buttonCount"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="Button"
+        android:background="@android:color/holo_red_dark"
+        android:text="Count"
+        android:textColor="@android:color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
