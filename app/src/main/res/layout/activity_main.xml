@@ -31,7 +31,7 @@
         android:onClick="countUp" />
 
     <TextView
-        android:id="@+id/showCount"
+        android:id="@+id/show_count"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:background="#1755FF"
