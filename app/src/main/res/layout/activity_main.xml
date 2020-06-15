@@ -16,15 +16,6 @@
         android:textColor="@android:color/white"
         android:onClick="showToast" />
 
-    <Button
-        android:id="@+id/button_count"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@android:color/holo_red_dark"
-        android:text="@string/button_label_count"
-        android:textColor="@android:color/white"
-        android:onClick="countUp" />
-
     <TextView
         android:id="@+id/show_count"
         android:layout_width="match_parent"
@@ -35,4 +26,13 @@
         android:textColor="#C8CB00"
         android:textSize="160sp"
         android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button_count"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_red_dark"
+        android:text="@string/button_label_count"
+        android:textColor="@android:color/white"
+        android:onClick="countUp" />
 </LinearLayout>
